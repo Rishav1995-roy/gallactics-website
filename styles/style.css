@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url('../assets/images/website_bg_image.svg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    background-color: rgba(76, 175, 80, 0.8);
+    color: white;
+    padding: 1rem;
+}
+
+main {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 0 auto;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgba(241, 241, 241, 0.8);
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
