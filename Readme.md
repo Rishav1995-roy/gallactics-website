@@ -1,6 +1,6 @@
-# Galactics Website
+# Fia Website
 
-A modern, responsive landing page for Galactics - an AI-powered financial research platform that provides Wall Street-grade research at zero cost for the Indian market.
+A modern, responsive landing page for Fia - an AI-powered financial research platform that provides Wall Street-grade research at zero cost for the Indian market.
 
 ## 🌟 Features
 
@@ -21,7 +21,7 @@ A modern, responsive landing page for Galactics - an AI-powered financial resear
 1. **Clone or download the project**
    ```bash
    git clone <repository-url>
-   cd galactics-website
+   cd fia-website
    ```
 
 2. **Serve the files**
@@ -50,7 +50,7 @@ A modern, responsive landing page for Galactics - an AI-powered financial resear
 ## 📁 Project Structure
 
 ```
-galactics-website/
+fia-website/
 ├── index.html              # Main landing page
 ├── menifest.json           # PWA manifest file
 ├── service_worker.js       # Service worker for PWA functionality
@@ -64,7 +64,7 @@ galactics-website/
         ├── first_icon.svg     # Deep fundamental analysis icon
         ├── second_icon.svg    # Sentiment analysis icon
         ├── third_icon.svg     # Clear reports icon
-        ├── galactics_logo.svg # Company logo
+        ├── app_logo.svg # Company logo
         └── send_button_icon.svg # Search button icon
 ```
 
@@ -209,7 +209,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📞 Contact
 
-**Galactics**  
+**Fia**  
 CIN no. 12345676890
 
 For support or inquiries, please use the search functionality on the website.
