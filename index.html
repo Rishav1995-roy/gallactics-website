@@ -1,156 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="/favicon.png" type="image/png" />
-    <link rel="manifest" href="./menifest.json" />
-    <meta name="theme-color" content="#000000" />
-    <title>Fia Website</title>
-    <link rel="stylesheet" href="styles/main.css" />
-  </head>
-  <body>
-    <div class="hero">
-      <div class="overlay"></div>
-      <header class="navbar">
-        <h1 class="logo-text">Fia</h1>
-      </header>
-      <main class="hero-content">
-        <h2>
-          Wall Street Grade<br />
-          Research at Zero Cost
-        </h2>
-        <p class="hero-subtext">
-          Get AI-powered, institutional-grade reports delivered instantly,
-          helping you make smarter, faster, and more confident investment
-          decisions in the Indian market.
-        </p>
-        <div class="search-bar">
-          <input
-            id="userInput"
-            type="text"
-            placeholder="How can I help you today?"
-          />
-          <button class="send-button" onclick="sendMessage()">
-            <img src="./assets/icons/send_button_icon.svg" alt="Send" />
-          </button>
-        </div>
-      </main>
-    </div>
 
-    <div class="insights-section">
-      <h2 class="insights-heading">Clear Insights, Confident Decisions.</h2>
-      <p class="insights-subtext">
-        Stop spending hours on manual research. Stop relying on guesswork. </br> Our
-        platform consolidates everything you need.
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="apple-touch-icon" sizes="57x57" href="./apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#000000" />
+  <title>Fia Website</title>
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+
+<body>
+  <div class="hero">
+    <div class="overlay"></div>
+    <header class="navbar">
+      <img src="./assets/icons/app_icon.svg" alt="AppLogo" style="width:120px; height:50px;"/>
+    </header>
+    <main class="hero-content">
+      <h2>
+        Wall Street Grade<br />
+        Research at Zero Cost
+      </h2>
+      <p class="hero-subtext">
+        Get AI-powered, institutional-grade reports delivered instantly,
+        helping you make smarter, faster, and more confident investment
+        decisions in the Indian market.
       </p>
-      <div class="insights-grid">
-        <div class="insight-card">
-          <img
-            src="assets/icons/first_icon.svg"
-            alt="Analysis Icon"
-            loading="lazy"
-          />
-          <p>Deep fundamental </br> & technical analysis</p>
+      <div class="search-bar">
+        <input id="userInput" type="text" placeholder="How can I help you today?" />
+        <button class="send-button" onclick="sendMessage()">
+          <img src="./assets/icons/send_button_icon.svg" alt="Send" />
+        </button>
+      </div>
+    </main>
+  </div>
+
+  <div class="insights-section">
+    <h2 class="insights-heading">Clear Insights, Confident Decisions.</h2>
+    <p class="insights-subtext">
+      Stop spending hours on manual research. Stop relying on guesswork. </br> Our
+      platform consolidates everything you need.
+    </p>
+    <div class="insights-grid">
+      <div class="insight-card">
+        <img src="assets/icons/first_icon.svg" alt="Analysis Icon" loading="lazy" />
+        <p>Deep fundamental </br> & technical analysis</p>
+      </div>
+      <div class="insight-card">
+        <img src="assets/icons/second_icon.svg" alt="Sentiment Icon" loading="lazy" />
+        <p>Deep sentiment <br />analysis</p>
+      </div>
+      <div class="insight-card">
+        <img src="assets/icons/third_icon.svg" alt="Report Icon" loading="lazy" />
+        <p>Clear, actionable </br> reports</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="use-cases-section">
+    <h2>Use Cases</h2>
+    <div class="use-case-content">
+      <div class="box-grid">
+        <div class="box">
+          <iframe src="https://www.youtube.com/embed/DcjNkHtDj8A?si=bjf2fEM1bigMwOm4" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen loading="lazy" referrerpolicy="no-referrer"></iframe>
         </div>
-        <div class="insight-card">
-          <img
-            src="assets/icons/second_icon.svg"
-            alt="Sentiment Icon"
-            loading="lazy"
-          />
-          <p>Deep sentiment <br />analysis</p>
+        <div class="box">
+          <iframe src="https://www.youtube.com/embed/6soT3DMBJGQ?si=iZKxDklH0UDsuGzM" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen loading="lazy" referrerpolicy="no-referrer"></iframe>
         </div>
-        <div class="insight-card">
-          <img
-            src="assets/icons/third_icon.svg"
-            alt="Report Icon"
-            loading="lazy"
-          />
-          <p>Clear, actionable </br> reports</p>
+        <div class="box">
+          <iframe src="https://www.youtube.com/embed/lI7IIOWM0Mo?si=N5HlWkJ67HET4KJJ" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen loading="lazy" referrerpolicy="no-referrer"></iframe>
+        </div>
+        <div class="box">
+          <iframe src="https://www.youtube.com/embed/Zq5fmkH0T78?si=j6AAnY0Ju-7nXsOd" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen loading="lazy" referrerpolicy="no-referrer"></iframe>
+        </div>
+        <div class="box">
+          <iframe src="https://www.youtube.com/embed/6dqAwh2MCg0?si=eARadFH7cJI523wM" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen loading="lazy" referrerpolicy="no-referrer"></iframe>
+        </div>
+        <div class="box">
+          <iframe src="https://www.youtube.com/embed/1qCyRAVEeoU?si=vYVJcqg817NaTXw9" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen loading="lazy" referrerpolicy="no-referrer"></iframe>
         </div>
       </div>
     </div>
-
-    <div class="use-cases-section">
-      <h2>Use Cases</h2>
-      <div class="use-case-content">
-        <div class="box-grid">
-          <div class="box">
-            <iframe
-              src="https://www.youtube.com/embed/DcjNkHtDj8A?si=bjf2fEM1bigMwOm4"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              loading="lazy"
-              referrerpolicy="no-referrer"
-            ></iframe>
-          </div>
-          <div class="box">
-            <iframe
-              src="https://www.youtube.com/embed/6soT3DMBJGQ?si=iZKxDklH0UDsuGzM"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              loading="lazy"
-              referrerpolicy="no-referrer"
-            ></iframe>
-          </div>
-          <div class="box">
-            <iframe
-              src="https://www.youtube.com/embed/lI7IIOWM0Mo?si=N5HlWkJ67HET4KJJ"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              loading="lazy"
-              referrerpolicy="no-referrer"
-            ></iframe>
-          </div>
-          <div class="box">
-            <iframe
-              src="https://www.youtube.com/embed/Zq5fmkH0T78?si=j6AAnY0Ju-7nXsOd"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              loading="lazy"
-              referrerpolicy="no-referrer"
-            ></iframe>
-          </div>
-          <div class="box">
-            <iframe
-              src="https://www.youtube.com/embed/6dqAwh2MCg0?si=eARadFH7cJI523wM"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              loading="lazy"
-              referrerpolicy="no-referrer"
-            ></iframe>
-          </div>
-          <div class="box">
-            <iframe
-              src="https://www.youtube.com/embed/1qCyRAVEeoU?si=vYVJcqg817NaTXw9"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              loading="lazy"
-              referrerpolicy="no-referrer"
-            ></iframe>
-          </div>
-        </div>
-      </div>
-      <hr class="custom-line" />
-      <div class="footer">
-        <p class="footer-content">Fia</p>
-        <p class="footer-content">CIN no. 12345676890</p>
-      </div>
+    <hr class="custom-line" />
+    <div class="footer">
+      <p class="footer-content">
+        <img src="./assets/icons/app_icon.svg" alt="AppLogo" style="width:40px; height:20px;"/>
+      </p>
+      <p class="footer-content">CIN no. 12345676890</p>
     </div>
+  </div>
 
-    <script src="scripts/app.js" defer></script>
-  </body>
+  <script src="scripts/app.js" defer></script>
+</body>
+
 </html>

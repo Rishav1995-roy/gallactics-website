@@ -21,7 +21,7 @@ A modern, responsive landing page for Fia - an AI-powered financial research pla
 1. **Clone or download the project**
    ```bash
    git clone <repository-url>
-   cd fia-website
+   cd galactics-website
    ```
 
 2. **Serve the files**
